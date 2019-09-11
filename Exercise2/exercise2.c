@@ -3,10 +3,16 @@
 #include<stdio.h>
 
 void main(){
-	int a,b,c;
-	printf("introduzca un numero:");
+	int a,b,c,d;
+	printf("********************************* \n");
+	printf("programm for adding up 3 numbers \n");
+	printf("********************************* \n");
+	printf("introduce the first number: \n");
 	scanf("%d",&a);
+	printf("introduce the second number: \n");
 	scanf("%d",&b);
-	c=a+b;
-	printf("la suma de %d y %d es %d",a,b,c);
+	printf("introduce the third number: \n");
+	scanf("%d",&d);
+	c=a+b+d;
+	printf("la suma de %d , %d y %d es %d",a,b,d,c);
 }
