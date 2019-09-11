@@ -5,5 +5,5 @@
 /* Here, you must include the required libraries */
 #include <stdio.h>
 void main(){
-	printf("hello world version 1");
+	printf("hello world version 2");
 }
